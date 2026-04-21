@@ -1,0 +1,982 @@
+{
+  "sources": [
+    {
+      "id": "PY-001",
+      "subject": "Python для анализа данных",
+      "topic": "Введение в Python",
+      "lesson_type": "Лекция",
+      "file_path": "Data/Seed/materials/python_intro.txt",
+      "media_paths": [
+        "Data/Seed/media/python_intro_scheme.svg"
+      ],
+      "requirements": [
+        "Цель занятия",
+        "Практическое задание",
+        "Проверка понимания",
+        "Наглядность",
+        "Последовательность темы"
+      ],
+      "topic_order": 1
+    },
+    {
+      "id": "PY-002",
+      "subject": "Python для анализа данных",
+      "topic": "Коллекции и функции",
+      "lesson_type": "Практика",
+      "file_path": "Data/Seed/materials/python_collections.md",
+      "media_paths": [
+        "Data/Seed/media/python_collections_demo.json"
+      ],
+      "requirements": [
+        "Цель занятия",
+        "Практическое задание",
+        "Проверка понимания",
+        "Наглядность",
+        "Последовательность темы"
+      ],
+      "topic_order": 2
+    },
+    {
+      "id": "PY-003",
+      "subject": "Python для анализа данных",
+      "topic": "Работа с CSV",
+      "lesson_type": "Лабораторная работа",
+      "file_path": "Data/Seed/materials/python_csv.html",
+      "media_paths": [],
+      "requirements": [
+        "Цель занятия",
+        "Практическое задание",
+        "Проверка понимания",
+        "Наглядность",
+        "Последовательность темы"
+      ],
+      "topic_order": 3
+    },
+    {
+      "id": "SQL-001",
+      "subject": "SQL и аналитика",
+      "topic": "Базовые SELECT-запросы",
+      "lesson_type": "Лекция",
+      "file_path": "Data/Seed/materials/sql_select.json",
+      "media_paths": [
+        "Data/Seed/media/sql_select_scheme.svg"
+      ],
+      "requirements": [
+        "Цель занятия",
+        "Практическое задание",
+        "Проверка понимания",
+        "Наглядность",
+        "Последовательность темы"
+      ],
+      "topic_order": 1
+    },
+    {
+      "id": "SQL-002",
+      "subject": "SQL и аналитика",
+      "topic": "Фильтрация и агрегации",
+      "lesson_type": "Практика",
+      "file_path": "Data/Seed/materials/sql_group_by.md",
+      "media_paths": [],
+      "requirements": [
+        "Цель занятия",
+        "Практическое задание",
+        "Проверка понимания",
+        "Наглядность",
+        "Последовательность темы"
+      ],
+      "topic_order": 2
+    },
+    {
+      "id": "SQL-003",
+      "subject": "SQL и аналитика",
+      "topic": "JOIN и объединения",
+      "lesson_type": "Лабораторная работа",
+      "file_path": "Data/Seed/materials/sql_join.txt",
+      "media_paths": [
+        "Data/Seed/media/sql_join_demo.json"
+      ],
+      "requirements": [
+        "Цель занятия",
+        "Практическое задание",
+        "Проверка понимания",
+        "Наглядность",
+        "Последовательность темы"
+      ],
+      "topic_order": 3
+    },
+    {
+      "id": "ML-001",
+      "subject": "Основы машинного обучения",
+      "topic": "Признаки и выборки",
+      "lesson_type": "Лекция",
+      "file_path": "Data/Seed/materials/ml_features.txt",
+      "media_paths": [
+        "Data/Seed/media/ml_features_scheme.svg"
+      ],
+      "requirements": [
+        "Цель занятия",
+        "Практическое задание",
+        "Проверка понимания",
+        "Наглядность",
+        "Последовательность темы"
+      ],
+      "topic_order": 1
+    },
+    {
+      "id": "ML-002",
+      "subject": "Основы машинного обучения",
+      "topic": "Линейные модели",
+      "lesson_type": "Практика",
+      "file_path": "Data/Seed/materials/ml_linear_models.md",
+      "media_paths": [],
+      "requirements": [
+        "Цель занятия",
+        "Практическое задание",
+        "Проверка понимания",
+        "Наглядность",
+        "Последовательность темы"
+      ],
+      "topic_order": 2
+    },
+    {
+      "id": "ML-003",
+      "subject": "Основы машинного обучения",
+      "topic": "Метрики качества",
+      "lesson_type": "Видеолекция",
+      "file_path": "Data/Seed/materials/ml_metrics.html",
+      "media_paths": [
+        "Data/Seed/media/ml_metrics_demo.json"
+      ],
+      "requirements": [
+        "Цель занятия",
+        "Практическое задание",
+        "Проверка понимания",
+        "Наглядность",
+        "Последовательность темы"
+      ],
+      "topic_order": 3
+    }
+  ],
+  "materials": [
+    {
+      "record_id": "PY-001",
+      "subject": "Python для анализа данных",
+      "topic": "Введение в Python",
+      "lesson_type": "Лекция",
+      "source_path": "Data/Seed/materials/python_intro.txt",
+      "source_kind": "lecture_text",
+      "text_material": "Тема: Введение в Python. Цель занятия: познакомить студента с базовым синтаксисом, переменными и типами данных. Материал показывает, как писать простые выражения, использовать print и читать код. Практическое задание: создать три переменные и вывести их в форматированной строке. Проверка понимания: ответить на вопросы о различиях между числом, строкой и логическим значением. Этот материал является первым в дисциплине, а далее рекомендуется переход к теме о коллекциях и функциях.",
+      "summary": "Тема: Введение в Python. Цель занятия: познакомить студента с базовым синтаксисом, переменными и типами данных.",
+      "moderation_conclusion": "Допустимо к использованию",
+      "requirement_checks": [
+        {
+          "requirement": "Цель занятия",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Практическое задание",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Проверка понимания",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Наглядность",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Последовательность темы",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        }
+      ],
+      "media_descriptions": [
+        "Схема базового синтаксиса Python. На изображении показаны переменные, вывод в консоль и типы данных с короткими подписями."
+      ],
+      "generated": false,
+      "topic_order": 1,
+      "previous_record_id": null,
+      "next_record_id": "PY-002",
+      "word_count": 51,
+      "char_count": 483,
+      "methodical_score": 5,
+      "difficulty_level": "Базовый",
+      "parallel_cluster": "",
+      "sequential_cluster": "",
+      "estimated_minutes": 36,
+      "content_hash": "8823c8969dc495ac200349cdb13c937d84a83cfd08a3e0adfdb88414cf5cc202",
+      "updated_at_utc": "2026-04-13T17:53:53+00:00"
+    },
+    {
+      "record_id": "PY-002",
+      "subject": "Python для анализа данных",
+      "topic": "Коллекции и функции",
+      "lesson_type": "Практика",
+      "source_path": "Data/Seed/materials/python_collections.md",
+      "source_kind": "document_markdown",
+      "text_material": "Коллекции и функции Цель занятия: научиться использовать списки, словари и функции для повторно используемых действий. Материал объясняет, как формировать списки наблюдений, считать длину коллекции и описывать небольшие функции обработки. Практическое задание: создать список оценок, посчитать среднее значение и оформить решение в функции. Проверка понимания: ответить, когда лучше использовать список, а когда словарь. Этот материал опирается на вводный урок и подготавливает обучающегося к работе с CSV.",
+      "summary": "Коллекции и функции Цель занятия: научиться использовать списки, словари и функции для повторно используемых действий. Материал объясняет, как формировать списки наблюдений, считать длину коллекции и описывать небольшие функции обработки.",
+      "moderation_conclusion": "Допустимо к использованию",
+      "requirement_checks": [
+        {
+          "requirement": "Цель занятия",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Практическое задание",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Проверка понимания",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Наглядность",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Последовательность темы",
+          "passed": false,
+          "comment": "Требование не подтверждено."
+        }
+      ],
+      "media_descriptions": [
+        "Видео о коллекциях Python Преподаватель показывает список и словарь на слайде Разбирается функция для вычисления среднего значения В конце звучит вопрос на самопроверку"
+      ],
+      "generated": false,
+      "topic_order": 2,
+      "previous_record_id": "PY-001",
+      "next_record_id": "PY-003",
+      "word_count": 55,
+      "char_count": 506,
+      "methodical_score": 4,
+      "difficulty_level": "Базовый",
+      "parallel_cluster": "",
+      "sequential_cluster": "",
+      "estimated_minutes": 38,
+      "content_hash": "d5becfe80060fcc69789634f79cbc9d99acbd9d15b1f379785738c6a5a4659f4",
+      "updated_at_utc": "2026-04-13T17:53:53+00:00"
+    },
+    {
+      "record_id": "PY-003",
+      "subject": "Python для анализа данных",
+      "topic": "Работа с CSV",
+      "lesson_type": "Лабораторная работа",
+      "source_path": "Data/Seed/materials/python_csv.html",
+      "source_kind": "html_document",
+      "text_material": "Работа с CSV Цель занятия: научиться читать табличные данные из файла и готовить их к анализу. Материал показывает модуль csv, чтение заголовков, цикл по строкам и подготовку простой сводки. Практическое задание: загрузить файл с продажами и посчитать сумму по категориям. Проверка понимания: объяснить отличие заголовка таблицы от строки данных. После выполнения занятия рекомендуется переход к визуализации данных.",
+      "summary": "Работа с CSV Цель занятия: научиться читать табличные данные из файла и готовить их к анализу. Материал показывает модуль csv, чтение заголовков, цикл по строкам и подготовку простой сводки.",
+      "moderation_conclusion": "Допустимо к использованию",
+      "requirement_checks": [
+        {
+          "requirement": "Цель занятия",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Практическое задание",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Проверка понимания",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Наглядность",
+          "passed": false,
+          "comment": "Требование не подтверждено."
+        },
+        {
+          "requirement": "Последовательность темы",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        }
+      ],
+      "media_descriptions": [],
+      "generated": false,
+      "topic_order": 3,
+      "previous_record_id": "PY-002",
+      "next_record_id": "PY-GEN-004",
+      "word_count": 45,
+      "char_count": 416,
+      "methodical_score": 4,
+      "difficulty_level": "Базовый",
+      "parallel_cluster": "",
+      "sequential_cluster": "",
+      "estimated_minutes": 30,
+      "content_hash": "7f3f48b72d75196f6bca4b24636d67dd9e8c1cc33d921ffdd4d0f69e7bd3fbe3",
+      "updated_at_utc": "2026-04-13T17:53:53+00:00"
+    },
+    {
+      "record_id": "PY-GEN-004",
+      "subject": "Python для анализа данных",
+      "topic": "Визуализация данных",
+      "lesson_type": "Автогенерированный материал",
+      "source_path": "generated://module-a",
+      "source_kind": "generated_material",
+      "text_material": "Тема: Визуализация данных. Предмет: Python для анализа данных. Цель занятия: объяснить тему простым языком и показать ее место в общей траектории. Теория: материал вводит основные понятия, показывает пример и объясняет типичные ошибки. Практическое задание: выполнить короткое упражнение и сравнить ответ с эталоном. Проверка понимания: ответить на три вопроса и определить, какую тему нужно повторить. Далее рекомендуется перейти к следующему материалу дисциплины.",
+      "summary": "Тема: Визуализация данных. Предмет: Python для анализа данных.",
+      "moderation_conclusion": "Допустимо к использованию",
+      "requirement_checks": [
+        {
+          "requirement": "Цель занятия",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Практическое задание",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Проверка понимания",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Наглядность",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Последовательность темы",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        }
+      ],
+      "media_descriptions": [
+        "Сгенерированное описание иллюстрации"
+      ],
+      "generated": true,
+      "topic_order": 4,
+      "previous_record_id": "PY-003",
+      "next_record_id": null,
+      "word_count": 52,
+      "char_count": 465,
+      "methodical_score": 5,
+      "difficulty_level": "Базовый",
+      "parallel_cluster": "",
+      "sequential_cluster": "",
+      "estimated_minutes": 37,
+      "content_hash": "616862f47cb3ed1f1b4d5382b23d28c7a53d266a57da73d2e26774698f4448fe",
+      "updated_at_utc": "2026-04-13T17:53:53+00:00"
+    },
+    {
+      "record_id": "SQL-001",
+      "subject": "SQL и аналитика",
+      "topic": "Базовые SELECT-запросы",
+      "lesson_type": "Лекция",
+      "source_path": "Data/Seed/materials/sql_select.json",
+      "source_kind": "structured_document",
+      "text_material": "Базовые SELECT-запросы Цель занятия: научиться выбирать столбцы и строки из таблицы. Материал объясняет структуру SELECT, FROM и порядок чтения простого запроса. Практическое задание: выбрать клиентов из таблицы users и вывести имена с городами. Проверка понимания: чем отличается выбор всех столбцов от явного списка? Это стартовая тема курса, далее рекомендуется переход к фильтрации и агрегациям.",
+      "summary": "Базовые SELECT-запросы Цель занятия: научиться выбирать столбцы и строки из таблицы. Материал объясняет структуру SELECT, FROM и порядок чтения простого запроса.",
+      "moderation_conclusion": "Допустимо к использованию",
+      "requirement_checks": [
+        {
+          "requirement": "Цель занятия",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Практическое задание",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Проверка понимания",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Наглядность",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Последовательность темы",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        }
+      ],
+      "media_descriptions": [
+        "Диаграмма структуры SQL-запроса. Изображение демонстрирует порядок частей SELECT, FROM и WHERE."
+      ],
+      "generated": false,
+      "topic_order": 1,
+      "previous_record_id": null,
+      "next_record_id": "SQL-002",
+      "word_count": 46,
+      "char_count": 399,
+      "methodical_score": 5,
+      "difficulty_level": "Базовый",
+      "parallel_cluster": "",
+      "sequential_cluster": "",
+      "estimated_minutes": 34,
+      "content_hash": "524140e7f52d3d8e075d0b22c4a7f0b8e5b7ea5b1226d758d7f3881f92b2f50d",
+      "updated_at_utc": "2026-04-13T17:53:53+00:00"
+    },
+    {
+      "record_id": "SQL-002",
+      "subject": "SQL и аналитика",
+      "topic": "Фильтрация и агрегации",
+      "lesson_type": "Практика",
+      "source_path": "Data/Seed/materials/sql_group_by.md",
+      "source_kind": "document_markdown",
+      "text_material": "Фильтрация и агрегации Цель занятия: освоить WHERE, GROUP BY и агрегатные функции. Материал объясняет, как фильтровать строки, считать количество записей и вычислять средние значения. Практическое задание: найти средний чек по магазинам и отфильтровать только значения выше порога. Проверка понимания: объяснить различия между WHERE и HAVING. Материал логически следует после базовых SELECT запросов и готовит к JOIN.",
+      "summary": "Фильтрация и агрегации Цель занятия: освоить WHERE, GROUP BY и агрегатные функции. Материал объясняет, как фильтровать строки, считать количество записей и вычислять средние значения.",
+      "moderation_conclusion": "Допустимо к использованию",
+      "requirement_checks": [
+        {
+          "requirement": "Цель занятия",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Практическое задание",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Проверка понимания",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Наглядность",
+          "passed": false,
+          "comment": "Требование не подтверждено."
+        },
+        {
+          "requirement": "Последовательность темы",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        }
+      ],
+      "media_descriptions": [],
+      "generated": false,
+      "topic_order": 2,
+      "previous_record_id": "SQL-001",
+      "next_record_id": "SQL-003",
+      "word_count": 47,
+      "char_count": 417,
+      "methodical_score": 4,
+      "difficulty_level": "Базовый",
+      "parallel_cluster": "",
+      "sequential_cluster": "",
+      "estimated_minutes": 31,
+      "content_hash": "8272689c584d2a7fe81bdb85db74c8dab9c4dc58737637107aea650bc4390c0d",
+      "updated_at_utc": "2026-04-13T17:53:53+00:00"
+    },
+    {
+      "record_id": "SQL-003",
+      "subject": "SQL и аналитика",
+      "topic": "JOIN и объединения",
+      "lesson_type": "Лабораторная работа",
+      "source_path": "Data/Seed/materials/sql_join.txt",
+      "source_kind": "lecture_text",
+      "text_material": "Тема: JOIN и объединения. Цель занятия: научиться объединять связанные таблицы и читать схему базы данных. Материал показывает INNER JOIN, LEFT JOIN и типовой сценарий соединения справочника с фактами. Практическое задание: связать таблицы заказов и клиентов, вывести имя клиента и сумму заказа. Проверка понимания: в чем отличие INNER JOIN от LEFT JOIN. Материал продолжает тему агрегаций и ведет к изучению оконных функций.",
+      "summary": "Тема: JOIN и объединения. Цель занятия: научиться объединять связанные таблицы и читать схему базы данных.",
+      "moderation_conclusion": "Допустимо к использованию",
+      "requirement_checks": [
+        {
+          "requirement": "Цель занятия",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Практическое задание",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Проверка понимания",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Наглядность",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Последовательность темы",
+          "passed": false,
+          "comment": "Требование не подтверждено."
+        }
+      ],
+      "media_descriptions": [
+        "Видео о соединениях таблиц На схеме показаны таблицы клиентов и заказов Преподаватель сравнивает INNER JOIN и LEFT JOIN Финальная сцена содержит мини-тест по соединениям"
+      ],
+      "generated": false,
+      "topic_order": 3,
+      "previous_record_id": "SQL-002",
+      "next_record_id": "SQ-GEN-004",
+      "word_count": 51,
+      "char_count": 425,
+      "methodical_score": 4,
+      "difficulty_level": "Базовый",
+      "parallel_cluster": "",
+      "sequential_cluster": "",
+      "estimated_minutes": 36,
+      "content_hash": "1127403bccddf63ddeebbc8cb421f18dff7c3026a3dc4822fef7b73b6e751efa",
+      "updated_at_utc": "2026-04-13T17:53:53+00:00"
+    },
+    {
+      "record_id": "SQ-GEN-004",
+      "subject": "SQL и аналитика",
+      "topic": "Оконные функции",
+      "lesson_type": "Автогенерированный материал",
+      "source_path": "generated://module-a",
+      "source_kind": "generated_material",
+      "text_material": "Тема: Оконные функции. Предмет: SQL и аналитика. Цель занятия: объяснить тему простым языком и показать ее место в общей траектории. Теория: материал вводит основные понятия, показывает пример и объясняет типичные ошибки. Практическое задание: выполнить короткое упражнение и сравнить ответ с эталоном. Проверка понимания: ответить на три вопроса и определить, какую тему нужно повторить. Далее рекомендуется перейти к следующему материалу дисциплины.",
+      "summary": "Тема: Оконные функции. Предмет: SQL и аналитика.",
+      "moderation_conclusion": "Допустимо к использованию",
+      "requirement_checks": [
+        {
+          "requirement": "Цель занятия",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Практическое задание",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Проверка понимания",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Наглядность",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Последовательность темы",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        }
+      ],
+      "media_descriptions": [
+        "Сгенерированное описание иллюстрации"
+      ],
+      "generated": true,
+      "topic_order": 4,
+      "previous_record_id": "SQL-003",
+      "next_record_id": null,
+      "word_count": 50,
+      "char_count": 451,
+      "methodical_score": 5,
+      "difficulty_level": "Базовый",
+      "parallel_cluster": "",
+      "sequential_cluster": "",
+      "estimated_minutes": 36,
+      "content_hash": "f214af090ab52388fa891504780a842b8617a7c69ed8ba2a7ef4ca7520c1847e",
+      "updated_at_utc": "2026-04-13T17:53:53+00:00"
+    },
+    {
+      "record_id": "ML-001",
+      "subject": "Основы машинного обучения",
+      "topic": "Признаки и выборки",
+      "lesson_type": "Лекция",
+      "source_path": "Data/Seed/materials/ml_features.txt",
+      "source_kind": "lecture_text",
+      "text_material": "Тема: Признаки и выборки. Цель занятия: объяснить, как формируются признаки, обучающая выборка и целевая переменная. Материал описывает наблюдения, признаки, целевую переменную и разделение данных на обучение и контроль. Практическое задание: описать признаки задачи прогноза успеваемости и выделить целевую переменную. Проверка понимания: зачем разделять данные на обучение и проверку. Далее рекомендуется переход к линейным моделям.",
+      "summary": "Тема: Признаки и выборки. Цель занятия: объяснить, как формируются признаки, обучающая выборка и целевая переменная.",
+      "moderation_conclusion": "Допустимо к использованию",
+      "requirement_checks": [
+        {
+          "requirement": "Цель занятия",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Практическое задание",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Проверка понимания",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Наглядность",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Последовательность темы",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        }
+      ],
+      "media_descriptions": [
+        "Схема признаков и выборок. Изображение показывает объекты, признаки, целевую переменную и разделение на train и test."
+      ],
+      "generated": false,
+      "topic_order": 1,
+      "previous_record_id": null,
+      "next_record_id": "ML-002",
+      "word_count": 45,
+      "char_count": 434,
+      "methodical_score": 5,
+      "difficulty_level": "Базовый",
+      "parallel_cluster": "",
+      "sequential_cluster": "",
+      "estimated_minutes": 33,
+      "content_hash": "e3218a70622d39997ccb3b97cf3ea36f599f7a8bec90958e0e9f1d98cb45fbb8",
+      "updated_at_utc": "2026-04-13T17:53:53+00:00"
+    },
+    {
+      "record_id": "ML-002",
+      "subject": "Основы машинного обучения",
+      "topic": "Линейные модели",
+      "lesson_type": "Практика",
+      "source_path": "Data/Seed/materials/ml_linear_models.md",
+      "source_kind": "document_markdown",
+      "text_material": "Линейные модели Цель занятия: показать, как линейные модели находят зависимость между признаками и ответом. Материал содержит объяснение коэффициентов, интерпретации весов и примеры задач классификации и регрессии. Практическое задание: сравнить две модели по качеству и объяснить влияние признаков. Проверка понимания: почему важна нормализация и как интерпретировать знак коэффициента. Материал логически следует после темы о признаках и выборках.",
+      "summary": "Линейные модели Цель занятия: показать, как линейные модели находят зависимость между признаками и ответом. Материал содержит объяснение коэффициентов, интерпретации весов и примеры задач классификации и регрессии.",
+      "moderation_conclusion": "Допустимо к использованию",
+      "requirement_checks": [
+        {
+          "requirement": "Цель занятия",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Практическое задание",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Проверка понимания",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Наглядность",
+          "passed": false,
+          "comment": "Требование не подтверждено."
+        },
+        {
+          "requirement": "Последовательность темы",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        }
+      ],
+      "media_descriptions": [],
+      "generated": false,
+      "topic_order": 2,
+      "previous_record_id": "ML-001",
+      "next_record_id": "ML-003",
+      "word_count": 48,
+      "char_count": 449,
+      "methodical_score": 4,
+      "difficulty_level": "Базовый",
+      "parallel_cluster": "",
+      "sequential_cluster": "",
+      "estimated_minutes": 32,
+      "content_hash": "e3ab3a2d5a11d755b1abec5e463b11709d86a577755371ad244f5d9954bb5c60",
+      "updated_at_utc": "2026-04-13T17:53:53+00:00"
+    },
+    {
+      "record_id": "ML-003",
+      "subject": "Основы машинного обучения",
+      "topic": "Метрики качества",
+      "lesson_type": "Видеолекция",
+      "source_path": "Data/Seed/materials/ml_metrics.html",
+      "source_kind": "html_document",
+      "text_material": "Метрики качества Цель занятия: познакомить с accuracy, precision, recall и F1. Материал объясняет, как матрица ошибок помогает анализировать качество классификации. Практическое задание: вычислить precision и recall по готовой матрице ошибок. Проверка понимания: когда accuracy может вводить в заблуждение. Этот материал идет после линейных моделей и подготавливает тему о переобучении и валидации.",
+      "summary": "Метрики качества Цель занятия: познакомить с accuracy, precision, recall и F1. Материал объясняет, как матрица ошибок помогает анализировать качество классификации.",
+      "moderation_conclusion": "Допустимо к использованию",
+      "requirement_checks": [
+        {
+          "requirement": "Цель занятия",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Практическое задание",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Проверка понимания",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Наглядность",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Последовательность темы",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        }
+      ],
+      "media_descriptions": [
+        "Видео о метриках качества На первом кадре отображена матрица ошибок На втором кадре объясняются precision и recall На третьем кадре сравниваются модели по F1"
+      ],
+      "generated": false,
+      "topic_order": 3,
+      "previous_record_id": "ML-002",
+      "next_record_id": "ОС-GEN-004",
+      "word_count": 42,
+      "char_count": 398,
+      "methodical_score": 5,
+      "difficulty_level": "Базовый",
+      "parallel_cluster": "",
+      "sequential_cluster": "",
+      "estimated_minutes": 32,
+      "content_hash": "a05539482f6f112d14880985352c7ab47f059c7d4818123b74a3c8b291787ff4",
+      "updated_at_utc": "2026-04-13T17:53:53+00:00"
+    },
+    {
+      "record_id": "ОС-GEN-004",
+      "subject": "Основы машинного обучения",
+      "topic": "Переобучение и валидация",
+      "lesson_type": "Автогенерированный материал",
+      "source_path": "generated://module-a",
+      "source_kind": "generated_material",
+      "text_material": "Тема: Переобучение и валидация. Предмет: Основы машинного обучения. Цель занятия: объяснить тему простым языком и показать ее место в общей траектории. Теория: материал вводит основные понятия, показывает пример и объясняет типичные ошибки. Практическое задание: выполнить короткое упражнение и сравнить ответ с эталоном. Проверка понимания: ответить на три вопроса и определить, какую тему нужно повторить. Далее рекомендуется перейти к следующему материалу дисциплины.",
+      "summary": "Тема: Переобучение и валидация. Предмет: Основы машинного обучения.",
+      "moderation_conclusion": "Допустимо к использованию",
+      "requirement_checks": [
+        {
+          "requirement": "Цель занятия",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Практическое задание",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Проверка понимания",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Наглядность",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        },
+        {
+          "requirement": "Последовательность темы",
+          "passed": true,
+          "comment": "Требование найдено в материале."
+        }
+      ],
+      "media_descriptions": [
+        "Сгенерированное описание иллюстрации"
+      ],
+      "generated": true,
+      "topic_order": 4,
+      "previous_record_id": "ML-003",
+      "next_record_id": null,
+      "word_count": 51,
+      "char_count": 470,
+      "methodical_score": 5,
+      "difficulty_level": "Базовый",
+      "parallel_cluster": "",
+      "sequential_cluster": "",
+      "estimated_minutes": 36,
+      "content_hash": "df480000e4c252ab55ca6b4c2119a43f247a7dfbc8a4b15ed5d6c5576c84da72",
+      "updated_at_utc": "2026-04-13T17:53:53+00:00"
+    }
+  ],
+  "clusters": {
+    "created_at_utc": "2026-04-13T17:55:51+00:00",
+    "assignments": [
+      {
+        "record_id": "PY-001",
+        "parallel_cluster": "Python для анализа данных :: базовый поток",
+        "sequential_cluster": "Python для анализа данных :: этап 1",
+        "difficulty_level": "Базовый"
+      },
+      {
+        "record_id": "PY-002",
+        "parallel_cluster": "Python для анализа данных :: практический поток",
+        "sequential_cluster": "Python для анализа данных :: этап 2",
+        "difficulty_level": "Базовый"
+      },
+      {
+        "record_id": "PY-003",
+        "parallel_cluster": "Python для анализа данных :: практический поток",
+        "sequential_cluster": "Python для анализа данных :: этап 3",
+        "difficulty_level": "Базовый"
+      },
+      {
+        "record_id": "PY-GEN-004",
+        "parallel_cluster": "Python для анализа данных :: базовый поток",
+        "sequential_cluster": "Python для анализа данных :: этап 4",
+        "difficulty_level": "Базовый"
+      },
+      {
+        "record_id": "SQL-001",
+        "parallel_cluster": "SQL и аналитика :: базовый поток",
+        "sequential_cluster": "SQL и аналитика :: этап 1",
+        "difficulty_level": "Базовый"
+      },
+      {
+        "record_id": "SQL-002",
+        "parallel_cluster": "SQL и аналитика :: практический поток",
+        "sequential_cluster": "SQL и аналитика :: этап 2",
+        "difficulty_level": "Базовый"
+      },
+      {
+        "record_id": "SQL-003",
+        "parallel_cluster": "SQL и аналитика :: практический поток",
+        "sequential_cluster": "SQL и аналитика :: этап 3",
+        "difficulty_level": "Базовый"
+      },
+      {
+        "record_id": "SQ-GEN-004",
+        "parallel_cluster": "SQL и аналитика :: базовый поток",
+        "sequential_cluster": "SQL и аналитика :: этап 4",
+        "difficulty_level": "Базовый"
+      },
+      {
+        "record_id": "ML-001",
+        "parallel_cluster": "Основы машинного обучения :: базовый поток",
+        "sequential_cluster": "Основы машинного обучения :: этап 1",
+        "difficulty_level": "Базовый"
+      },
+      {
+        "record_id": "ML-002",
+        "parallel_cluster": "Основы машинного обучения :: практический поток",
+        "sequential_cluster": "Основы машинного обучения :: этап 2",
+        "difficulty_level": "Базовый"
+      },
+      {
+        "record_id": "ML-003",
+        "parallel_cluster": "Основы машинного обучения :: базовый поток",
+        "sequential_cluster": "Основы машинного обучения :: этап 3",
+        "difficulty_level": "Базовый"
+      },
+      {
+        "record_id": "ОС-GEN-004",
+        "parallel_cluster": "Основы машинного обучения :: базовый поток",
+        "sequential_cluster": "Основы машинного обучения :: этап 4",
+        "difficulty_level": "Базовый"
+      }
+    ],
+    "parallel_metric": {
+      "name": "Параллельное изучение",
+      "compactness": 0.217,
+      "separation": 0.753,
+      "conclusion": "Кластеры устойчивы и пригодны для использования."
+    },
+    "sequential_metric": {
+      "name": "Последовательное изучение",
+      "compactness": 0.0,
+      "separation": 0.756,
+      "conclusion": "Кластеры корректны, но качество вырастет при расширении данных."
+    },
+    "difficulty_metric": {
+      "name": "Сложность",
+      "compactness": 0.244,
+      "separation": 0.0,
+      "conclusion": "Кластеры корректны, но качество вырастет при расширении данных."
+    }
+  },
+  "models": {
+    "updated_at_utc": "2026-04-13T17:56:12+00:00",
+    "dataset_hash": "38d5b64ccbffc2081ebc21b0f915e751835469dcbbab8e31c57411b3f73b34d3",
+    "drift_score": 0.125,
+    "requires_full_retrain": false,
+    "versions": [
+      {
+        "version": "v20260413223714",
+        "created_at_utc": "2026-04-13T17:37:14+00:00",
+        "change_note": "Дообучение без полного сброса"
+      },
+      {
+        "version": "v20260413223728",
+        "created_at_utc": "2026-04-13T17:37:28+00:00",
+        "change_note": "Дообучение без полного сброса"
+      },
+      {
+        "version": "v20260413225612",
+        "created_at_utc": "2026-04-13T17:56:12+00:00",
+        "change_note": "Дообучение без полного сброса"
+      }
+    ],
+    "models": {
+      "parallel": {
+        "selected_method": "keyword_rule",
+        "method_scores": {
+          "keyword_rule": 1.0,
+          "nearest_neighbor": 1.0,
+          "centroid_rule": 1.0
+        }
+      },
+      "sequential": {
+        "selected_method": "keyword_rule",
+        "method_scores": {
+          "keyword_rule": 1.0,
+          "nearest_neighbor": 1.0,
+          "centroid_rule": 1.0
+        }
+      },
+      "difficulty": {
+        "selected_method": "keyword_rule",
+        "method_scores": {
+          "keyword_rule": 1.0,
+          "nearest_neighbor": 1.0,
+          "centroid_rule": 1.0
+        }
+      }
+    }
+  },
+  "suggestions": [
+    {
+      "subject": "Python для анализа данных",
+      "topic": "Визуализация данных",
+      "reason": "Тема отсутствовала в наборе данных и была автоматически добавлена.",
+      "generated": true
+    },
+    {
+      "subject": "SQL и аналитика",
+      "topic": "Оконные функции",
+      "reason": "Тема отсутствовала в наборе данных и была автоматически добавлена.",
+      "generated": true
+    },
+    {
+      "subject": "Основы машинного обучения",
+      "topic": "Переобучение и валидация",
+      "reason": "Тема отсутствовала в наборе данных и была автоматически добавлена.",
+      "generated": true
+    }
+  ],
+  "runs": [
+    {
+      "module": "A",
+      "started_at_utc": "2026-04-13T17:53:53+00:00",
+      "result": "OK",
+      "details": "Сбор, предобработка, модерация и расширение набора завершены."
+    },
+    {
+      "module": "V",
+      "started_at_utc": "2026-04-13T17:56:48+00:00",
+      "result": "OK",
+      "details": "Обучение моделей, контроль дрейфа и рекомендации завершены."
+    }
+  ]
+}

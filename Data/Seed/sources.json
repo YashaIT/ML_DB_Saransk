@@ -1,0 +1,158 @@
+[
+  {
+    "id": "PY-001",
+    "subject": "Python для анализа данных",
+    "topic": "Введение в Python",
+    "lessonType": "Лекция",
+    "filePath": "Data/Seed/materials/python_intro.txt",
+    "mediaPaths": [
+      "Data/Seed/media/python_intro_scheme.svg"
+    ],
+    "methodicalRequirements": [
+      "Цель занятия",
+      "Практическое задание",
+      "Проверка понимания",
+      "Наглядность",
+      "Последовательность темы"
+    ],
+    "topicOrder": 1
+  },
+  {
+    "id": "PY-002",
+    "subject": "Python для анализа данных",
+    "topic": "Коллекции и функции",
+    "lessonType": "Практика",
+    "filePath": "Data/Seed/materials/python_collections.md",
+    "mediaPaths": [
+      "Data/Seed/media/python_collections_demo.json"
+    ],
+    "methodicalRequirements": [
+      "Цель занятия",
+      "Практическое задание",
+      "Проверка понимания",
+      "Наглядность",
+      "Последовательность темы"
+    ],
+    "topicOrder": 2
+  },
+  {
+    "id": "PY-003",
+    "subject": "Python для анализа данных",
+    "topic": "Работа с CSV",
+    "lessonType": "Лабораторная работа",
+    "filePath": "Data/Seed/materials/python_csv.html",
+    "mediaPaths": [],
+    "methodicalRequirements": [
+      "Цель занятия",
+      "Практическое задание",
+      "Проверка понимания",
+      "Наглядность",
+      "Последовательность темы"
+    ],
+    "topicOrder": 3
+  },
+  {
+    "id": "SQL-001",
+    "subject": "SQL и аналитика",
+    "topic": "Базовые SELECT-запросы",
+    "lessonType": "Лекция",
+    "filePath": "Data/Seed/materials/sql_select.json",
+    "mediaPaths": [
+      "Data/Seed/media/sql_select_scheme.svg"
+    ],
+    "methodicalRequirements": [
+      "Цель занятия",
+      "Практическое задание",
+      "Проверка понимания",
+      "Наглядность",
+      "Последовательность темы"
+    ],
+    "topicOrder": 1
+  },
+  {
+    "id": "SQL-002",
+    "subject": "SQL и аналитика",
+    "topic": "Фильтрация и агрегации",
+    "lessonType": "Практика",
+    "filePath": "Data/Seed/materials/sql_group_by.md",
+    "mediaPaths": [],
+    "methodicalRequirements": [
+      "Цель занятия",
+      "Практическое задание",
+      "Проверка понимания",
+      "Наглядность",
+      "Последовательность темы"
+    ],
+    "topicOrder": 2
+  },
+  {
+    "id": "SQL-003",
+    "subject": "SQL и аналитика",
+    "topic": "JOIN и объединения",
+    "lessonType": "Лабораторная работа",
+    "filePath": "Data/Seed/materials/sql_join.txt",
+    "mediaPaths": [
+      "Data/Seed/media/sql_join_demo.json"
+    ],
+    "methodicalRequirements": [
+      "Цель занятия",
+      "Практическое задание",
+      "Проверка понимания",
+      "Наглядность",
+      "Последовательность темы"
+    ],
+    "topicOrder": 3
+  },
+  {
+    "id": "ML-001",
+    "subject": "Основы машинного обучения",
+    "topic": "Признаки и выборки",
+    "lessonType": "Лекция",
+    "filePath": "Data/Seed/materials/ml_features.txt",
+    "mediaPaths": [
+      "Data/Seed/media/ml_features_scheme.svg"
+    ],
+    "methodicalRequirements": [
+      "Цель занятия",
+      "Практическое задание",
+      "Проверка понимания",
+      "Наглядность",
+      "Последовательность темы"
+    ],
+    "topicOrder": 1
+  },
+  {
+    "id": "ML-002",
+    "subject": "Основы машинного обучения",
+    "topic": "Линейные модели",
+    "lessonType": "Практика",
+    "filePath": "Data/Seed/materials/ml_linear_models.md",
+    "mediaPaths": [],
+    "methodicalRequirements": [
+      "Цель занятия",
+      "Практическое задание",
+      "Проверка понимания",
+      "Наглядность",
+      "Последовательность темы"
+    ],
+    "topicOrder": 2
+  },
+  {
+    "id": "ML-003",
+    "subject": "Основы машинного обучения",
+    "topic": "Метрики качества",
+    "lessonType": "Семинар",
+    "filePath": "Data/Seed/materials/ml_metrics.html",
+    "mediaPaths": [
+      "Data/Seed/media/ml_metrics_demo.json"
+    ],
+    "methodicalRequirements": [
+      "Цель занятия",
+      "Практическое задание",
+      "Проверка понимания",
+      "Наглядность",
+      "Последовательность темы"
+    ],
+    "topicOrder": 3
+  }
+]

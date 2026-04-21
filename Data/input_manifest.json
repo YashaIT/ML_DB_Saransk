@@ -1,0 +1,114 @@
+{
+  "sources": [
+    {
+      "id": "PY-001",
+      "subject": "Python для анализа данных",
+      "topic": "Введение в Python",
+      "lesson_type": "Лекция",
+      "file_path": "Data/Seed/materials/python_intro.txt",
+      "media_paths": ["Data/Seed/media/python_intro_scheme.svg"],
+      "requirements": ["Цель занятия", "Практическое задание", "Проверка понимания", "Наглядность", "Последовательность темы"],
+      "topic_order": 1
+    },
+    {
+      "id": "PY-002",
+      "subject": "Python для анализа данных",
+      "topic": "Коллекции и функции",
+      "lesson_type": "Практика",
+      "file_path": "Data/Seed/materials/python_collections.md",
+      "media_paths": ["Data/Seed/media/python_collections_demo.json"],
+      "requirements": ["Цель занятия", "Практическое задание", "Проверка понимания", "Наглядность", "Последовательность темы"],
+      "topic_order": 2
+    },
+    {
+      "id": "PY-003",
+      "subject": "Python для анализа данных",
+      "topic": "Работа с CSV",
+      "lesson_type": "Лабораторная работа",
+      "file_path": "Data/Seed/materials/python_csv.html",
+      "media_paths": [],
+      "requirements": ["Цель занятия", "Практическое задание", "Проверка понимания", "Наглядность", "Последовательность темы"],
+      "topic_order": 3
+    },
+    {
+      "id": "SQL-001",
+      "subject": "SQL и аналитика",
+      "topic": "Базовые SELECT-запросы",
+      "lesson_type": "Лекция",
+      "file_path": "Data/Seed/materials/sql_select.json",
+      "media_paths": ["Data/Seed/media/sql_select_scheme.svg"],
+      "requirements": ["Цель занятия", "Практическое задание", "Проверка понимания", "Наглядность", "Последовательность темы"],
+      "topic_order": 1
+    },
+    {
+      "id": "SQL-002",
+      "subject": "SQL и аналитика",
+      "topic": "Фильтрация и агрегации",
+      "lesson_type": "Практика",
+      "file_path": "Data/Seed/materials/sql_group_by.md",
+      "media_paths": [],
+      "requirements": ["Цель занятия", "Практическое задание", "Проверка понимания", "Наглядность", "Последовательность темы"],
+      "topic_order": 2
+    },
+    {
+      "id": "SQL-003",
+      "subject": "SQL и аналитика",
+      "topic": "JOIN и объединения",
+      "lesson_type": "Лабораторная работа",
+      "file_path": "Data/Seed/materials/sql_join.txt",
+      "media_paths": ["Data/Seed/media/sql_join_demo.json"],
+      "requirements": ["Цель занятия", "Практическое задание", "Проверка понимания", "Наглядность", "Последовательность темы"],
+      "topic_order": 3
+    },
+    {
+      "id": "ML-001",
+      "subject": "Основы машинного обучения",
+      "topic": "Признаки и выборки",
+      "lesson_type": "Лекция",
+      "file_path": "Data/Seed/materials/ml_features.txt",
+      "media_paths": ["Data/Seed/media/ml_features_scheme.svg"],
+      "requirements": ["Цель занятия", "Практическое задание", "Проверка понимания", "Наглядность", "Последовательность темы"],
+      "topic_order": 1
+    },
+    {
+      "id": "ML-002",
+      "subject": "Основы машинного обучения",
+      "topic": "Линейные модели",
+      "lesson_type": "Практика",
+      "file_path": "Data/Seed/materials/ml_linear_models.md",
+      "media_paths": [],
+      "requirements": ["Цель занятия", "Практическое задание", "Проверка понимания", "Наглядность", "Последовательность темы"],
+      "topic_order": 2
+    },
+    {
+      "id": "ML-003",
+      "subject": "Основы машинного обучения",
+      "topic": "Метрики качества",
+      "lesson_type": "Видеолекция",
+      "file_path": "Data/Seed/materials/ml_metrics.html",
+      "media_paths": ["Data/Seed/media/ml_metrics_demo.json"],
+      "requirements": ["Цель занятия", "Практическое задание", "Проверка понимания", "Наглядность", "Последовательность темы"],
+      "topic_order": 3
+    }
+  ],
+  "syllabus": {
+    "Python для анализа данных": [
+      {"topic_order": 1, "topic": "Введение в Python"},
+      {"topic_order": 2, "topic": "Коллекции и функции"},
+      {"topic_order": 3, "topic": "Работа с CSV"},
+      {"topic_order": 4, "topic": "Визуализация данных"}
+    ],
+    "SQL и аналитика": [
+      {"topic_order": 1, "topic": "Базовые SELECT-запросы"},
+      {"topic_order": 2, "topic": "Фильтрация и агрегации"},
+      {"topic_order": 3, "topic": "JOIN и объединения"},
+      {"topic_order": 4, "topic": "Оконные функции"}
+    ],
+    "Основы машинного обучения": [
+      {"topic_order": 1, "topic": "Признаки и выборки"},
+      {"topic_order": 2, "topic": "Линейные модели"},
+      {"topic_order": 3, "topic": "Метрики качества"},
+      {"topic_order": 4, "topic": "Переобучение и валидация"}
+    ]
+  }
+}
